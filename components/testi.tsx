@@ -14,7 +14,7 @@ import {
 export function TestimonialForm() {
   const nameRef = useRef<HTMLInputElement>(null);
   const emailRef = useRef<HTMLInputElement>(null);
-  const messageRef = useRef<HTMLTextAreaElement>(null);
+  const messageRef = useRef<HTMLInputElement>(null);
   const [showModal, setShowModal] = useState(false); // State for controlling modal visibility
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
