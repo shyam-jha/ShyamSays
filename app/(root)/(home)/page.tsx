@@ -7,7 +7,6 @@ import { HeroParallaxDemo } from "@/components/me";
 import { CardHoverEffectDemo } from "@/components/demoskills";
 import { FloatingNavDemo } from "@/components/float";
 import { ThreeDCardDemo } from "@/components/project";
-import Features from "@/components/about";
 import { TestimonialForm } from "@/components/testi";
 import Footer from "@/components/footer";
 import { DockDemo } from "@/components/skills";
