@@ -17,14 +17,21 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: white;
+  background: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+.glass-effect {
+  border-radius: 1rem;
+  border: 1px solid rgb(255, 255, 255);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px rgba(216, 211, 211, 0.76);
+  color: #fff; /* Optional: To ensure text is readable on the glass effect */
+   /* Optional: Add padding to make content look better */
+}
+
+
 
 @layer utilities {
   .text-balance {
