@@ -9,7 +9,7 @@ export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export function DockDemo() {
     return (
-        <div className="mt-[4rem]" id="skills">
+        <div className="mt-[4rem] max-md:px-5" id="skills">
 
             <GradualSpacing
                 className="font-display text-center md:mb-10 text-2xl md:text-6xl font-bold tracking-[-0.1em] text-white"
