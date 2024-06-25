@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import {
     motion,
@@ -7,19 +6,21 @@ import {
     useSpring,
     MotionValue,
 } from "framer-motion";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image"; // Import StaticImageData
 import Link from "next/link";
 import { CardStackDemo } from "../card";
 
+// Define a type for the product with StaticImageData for thumbnail
+export type Product = {
+    title: string;
+    thumbnail: StaticImageData;
+};
 
-export const HeroParallax = ({
-    products,
-}: {
-    products: {
-        title: string;
-        thumbnail: string;
-    }[];
-}) => {
+type Props = {
+    products: Product[];
+};
+
+export const HeroParallax = ({ products }: Props) => {
     const firstRow = products.slice(0, 5);
     const secondRow = products.slice(5, 10);
     const thirdRow = products.slice(10, 15);
@@ -124,10 +125,7 @@ export const ProductCard = ({
     product,
     translate,
 }: {
-    product: {
-        title: string;
-        thumbnail: string;
-    };
+    product: Product;
     translate: MotionValue<number>;
 }) => {
     return (
@@ -141,9 +139,8 @@ export const ProductCard = ({
             key={product.title}
             className="group/product h-96 w-[30rem] relative flex-shrink-0"
         >
-
             <Image
-                src={product.thumbnail}
+                src={product.thumbnail} // Use product.thumbnail directly
                 height="384"
                 width="480"
                 className=" block group-hover/product:shadow-2xl object-cover object-left-top absolute h-full w-full inset-0"

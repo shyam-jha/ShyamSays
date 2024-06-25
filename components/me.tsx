@@ -16,6 +16,7 @@ import i12 from "../src/images/i12.jpeg";
 import i13 from "../src/images/i13.jpeg";
 import i14 from "../src/images/i14.jpeg";
 
+
 export function HeroParallaxDemo() {
   return <HeroParallax products={products} />;
 }
