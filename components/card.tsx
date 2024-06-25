@@ -34,7 +34,7 @@ const CARDS = [
     content: (
       <p>
         Selected from <Highlight>7000 candidates</Highlight> across Delhi University,
-        only <Highlight>140 students</Highlight> were chosen, and I'm honored to be one of them and avail the <Highlight>Vice Chancellor Intership Scheme</Highlight>.
+        only <Highlight>140 students</Highlight> were chosen, and I&apos;m honored to be one of them and avail the <Highlight>Vice Chancellor Intership Scheme</Highlight>.
       </p>
     ),
   },

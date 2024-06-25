@@ -110,7 +110,7 @@ export const Header = () => {
             </div>
             <div className="max-w-7xl relative mx-auto px-4 py-20 md:py-40  w-full  left-0 top-0">
                 <h1 className="text-2xl md:text-7xl font-bold text-white">
-                    Hello world ... <br /> I'm Shyam Jha👋🏻
+                    Hello world ... <br /> I&apos;m Shyam Jha👋🏻
                 </h1>
                 <p className="max-w-2xl text-base md:text-xl mt-8 text-neutral-200">
                     Full Stack Developer | Intern under VCIS Schema | Core Memebr of ACM DDUC Chapter | Director of Reseach and Developnment (Enactus DDUC)

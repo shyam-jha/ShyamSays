@@ -21,7 +21,7 @@ export function HeroParallaxDemo() {
 }
 
 export const products = [
-  /** perfect **/{
+  {
     title: "Moonbeam",
     thumbnail: i1,
   },

@@ -168,7 +168,7 @@ export function TestimonialForm() {
               {/* Body */}
               <div className="relative p-6 flex-auto">
                 <p className="my-4 text-gray-600 text-lg leading-relaxed">
-                  Thank you for your submission! We'll get back to you soon.
+                  Thank you for your submission! We&apos;ll get back to you soon.
                 </p>
               </div>
             </div>
