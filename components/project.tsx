@@ -35,8 +35,8 @@ const projects = [
         name: "Chess Game in C++ from scratch",
         description: "Dynamic Chess is a C++ chess game built from scratch, featuring dynamic memory allocation and innovative 3D array logic. With optimized memory usage and efficient handling of game elements, it offers a captivating experience for chess enthusiasts.",
         image: f2,
-        linkk: "https://shyam-jha.github.io/shyam-jha/chess",
-        githubLink: "https://github.com/shyam-jha/chess",
+        linkk: "https://github.com/shyam-jha/chess-in-cpp",
+        githubLink: "https://github.com/shyam-jha/chess-in-cpp",
         icons: [SiLichess, TbBrandCpp, MdOutlineDataArray]
     },
     {
