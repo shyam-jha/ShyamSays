@@ -13,7 +13,7 @@ import { DockDemo } from "@/components/skills";
 
 export default function Home() {
   return (
-    <div className="justify-center max-w-screen-2xl">
+    <div className="max-w-screen-2xl mx-auto">
       
       <Navbar />
       <FloatingNavDemo />
