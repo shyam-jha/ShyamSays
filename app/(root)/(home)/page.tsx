@@ -13,7 +13,7 @@ import { DockDemo } from "@/components/skills";
 
 export default function Home() {
   return (
-    <>
+    <div className="max-w-3xl">
       <Navbar />
       <FloatingNavDemo />
       <HeroParallaxDemo />
@@ -28,6 +28,6 @@ export default function Home() {
       <Footer />
 
 
-    </>
+    </div>
   );
 }
