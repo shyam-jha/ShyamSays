@@ -13,7 +13,8 @@ import { DockDemo } from "@/components/skills";
 
 export default function Home() {
   return (
-    <div className="max-w-screen-2xl">
+    <div className="flex justify-center items-center max-w-screen-2xl">
+      <div>
       <Navbar />
       <FloatingNavDemo />
       <HeroParallaxDemo />
@@ -26,6 +27,8 @@ export default function Home() {
       <ThreeDCardDemo />
       <TestimonialForm />
       <Footer />
+
+        </div>
 
 
     </div>
